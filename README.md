@@ -1,2 +1,2 @@
-# Razocharovaniye.github.io
+# Razocharovaniye
 First project
