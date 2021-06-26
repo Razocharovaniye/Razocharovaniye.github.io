@@ -1,3 +1,3 @@
 # My projects
 
-[First website](Razocharovaniye.github.io/Github_1/)
+[First website](https://razocharovaniye.github.io/Github_1/)
