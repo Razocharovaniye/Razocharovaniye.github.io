@@ -1,24 +1,24 @@
 /*Colors*/
 @font-face {
   font-family: 'Proxima Nova Cn Rg';
-  src: url('../ProximaNovaCond-Regular.eot');
-  src: url('../ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'), url('../ProximaNovaCond-Regular.woff2') format('woff2'), url('../ProximaNovaCond-Regular.woff') format('woff'), url('../ProximaNovaCond-Regular.ttf') format('truetype'), url('../ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular') format('svg');
+  src: url('../../font/ProximaNovaCond-Regular.eot');
+  src: url('../../font/ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'), url('../../font/ProximaNovaCond-Regular.woff2') format('woff2'), url('../../font/ProximaNovaCond-Regular.woff') format('woff'), url('../../font/ProximaNovaCond-Regular.ttf') format('truetype'), url('../../font/ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Proxima Nova Cn Lt';
-  src: url('../ProximaNovaCond-Semibold.eot');
-  src: url('../ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'), url('../ProximaNovaCond-Semibold.woff2') format('woff2'), url('../ProximaNovaCond-Semibold.woff') format('woff'), url('../ProximaNovaCond-Semibold.ttf') format('truetype'), url('../ProximaNovaCond-Semibold.svg#ProximaNovaCond-Semibold') format('svg');
+  src: url('../../font/ProximaNovaCond-Semibold.eot');
+  src: url('../../font/ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'), url('../../font/ProximaNovaCond-Semibold.woff2') format('woff2'), url('../../font/ProximaNovaCond-Semibold.woff') format('woff'), url('../../font/ProximaNovaCond-Semibold.ttf') format('truetype'), url('../../font/ProximaNovaCond-Semibold.svg#ProximaNovaCond-Semibold') format('svg');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Proxima Nova Rg';
-  src: url('../ProximaNova-Bold.eot');
-  src: url('../ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../ProximaNova-Bold.woff2') format('woff2'), url('../ProximaNova-Bold.woff') format('woff'), url('../ProximaNova-Bold.ttf') format('truetype'), url('../ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  src: url('../../font/ProximaNova-Bold.eot');
+  src: url('../../font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../../font/ProximaNova-Bold.woff2') format('woff2'), url('../../font/ProximaNova-Bold.woff') format('woff'), url('../../font/ProximaNova-Bold.ttf') format('truetype'), url('../../font/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -55,11 +55,6 @@ textarea:focus {
   color: #fff;
 }
 /*оформление форм*/
-.form {
-  /*поле для ввода*/
-  /*подписи к полям*/
-  /*кнопка оставить заявку*/
-}
 .form-input,
 .form-textarea {
   display: block;
@@ -135,7 +130,7 @@ section {
 .main {
   padding: 3rem 0 5rem;
   background-size: cover;
-  background: url(/src/img/bg_1.jpg) center center no-repeat;
+  background: url(../../img/bg_1.jpg) center center no-repeat;
   /*Подзаголовок*/
   /*Зеленый ярлык*/
   /*Оплата по факту*/
@@ -236,12 +231,12 @@ section {
   border: none;
 }
 .prev {
-  background: url(/src/img/left-arrow.svg) center no-repeat;
+  background: url(../../img/left-arrow.svg) center no-repeat;
   left: 0;
   background-size: 70%;
 }
 .next {
-  background: url(/src/img/right-arrow.svg) center no-repeat;
+  background: url(../../img/right-arrow.svg) center no-repeat;
   right: 0;
   background-size: 70%;
 }
@@ -314,7 +309,7 @@ section {
 }
 /*секция цен*/
 .price {
-  background: url(/src/img/bg_2_prices.jpg) #2daa07 center;
+  background: url(../../img/bg_2_prices.jpg) #2daa07 center;
   /*карточка с тарифами*/
 }
 .price-header-btn {
@@ -377,13 +372,13 @@ section {
   margin-right: 0.6rem;
   width: 1.3rem;
   height: 1.4rem;
-  background: url(/src/img/price/check.svg) no-repeat center;
+  background: url(../../img/price/check.svg) no-repeat center;
   background-size: 100%;
   vertical-align: middle;
 }
 /*секция с отзывами*/
 .feedback {
-  background: url(/src/img/bg_3.jpg) no-repeat center;
+  background: url(../../img/bg_3.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   /*оформление обратной связи - форма*/
@@ -474,7 +469,7 @@ section {
 }
 /*схема работы*/
 .scheme {
-  background: #fff url(/src/img/scheme/bg.jpg) bottom -10rem right -15rem no-repeat;
+  background: #fff url(../../img/scheme/bg.jpg) bottom -10rem right -15rem no-repeat;
   background-size: 65rem;
 }
 .scheme-block {
@@ -604,19 +599,19 @@ section {
   opacity: 0.5;
 }
 .problems-list_bad ul li:before {
-  background: url(/src/img/problems/no.svg) center no-repeat;
+  background: url(../../img/problems/no.svg) center no-repeat;
   background-size: 70%;
 }
 .problems-list_good {
   border-color: #2daa07;
 }
 .problems-list_good ul li:before {
-  background: url(/src/img/problems/yes.svg) center no-repeat;
+  background: url(../../img/problems/yes.svg) center no-repeat;
   background-size: 70%;
 }
 /*материалы*/
 .material {
-  background: #fff url(/src/img/materials/bg_m.jpg) center no-repeat;
+  background: #fff url(../../img/materials/bg_m.jpg) center no-repeat;
   background-size: cover;
 }
 .material .section-header h2 {
@@ -667,7 +662,7 @@ section {
 }
 /*посмотрите как мы работаем*/
 .tour {
-  background: #fff url(/src/img/tour/bg.jpg) center no-repeat;
+  background: #fff url(../../img/tour/bg.jpg) center no-repeat;
   background-size: cover;
 }
 .tour .section-header h2 {
@@ -740,7 +735,7 @@ section {
 }
 /*Контакты*/
 .contacts {
-  background: #fff url(/src/img/contacts/bg.jpg) center no-repeat;
+  background: #fff url(../../img/contacts/bg.jpg) center no-repeat;
   background-size: cover;
 }
 .contacts .col-xl-6 h2 {
@@ -813,7 +808,7 @@ section {
     margin-bottom: 3rem;
   }
   .scheme {
-    background: #fff url(/src/img/scheme/bg.jpg) bottom -15rem right -15rem no-repeat;
+    background: #fff url(../../img/scheme/bg.jpg) bottom -15rem right -15rem no-repeat;
   }
   .all-inclusive .media {
     min-height: 11rem;
@@ -885,7 +880,7 @@ section {
     display: none;
   }
   .scheme {
-    background: #fff url(/src/img/scheme/bg.jpg) bottom -15rem right -35rem no-repeat;
+    background: #fff url(../../img/scheme/bg.jpg) bottom -15rem right -35rem no-repeat;
     text-align: center;
   }
   .problems-list {
