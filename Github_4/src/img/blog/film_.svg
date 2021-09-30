@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="film_" data-name="film " class="cls-1" d="M0.65,0.648h18.7v18.7H0.65V0.648Zm5.1,1.7h8.5v6.8H5.75v-6.8Zm0,8.5h8.5v6.8H5.75v-6.8Zm10.2-8.5h1.7v1.7h-1.7v-1.7Zm0,2.55h1.7V6.6h-1.7V4.9Zm0,2.55h1.7v1.7h-1.7v-1.7Zm0,3.4h1.7v1.7h-1.7v-1.7Zm0,2.55h1.7v1.7h-1.7V13.4Zm0,2.549h1.7v1.7h-1.7v-1.7ZM2.35,2.349h1.7v1.7H2.35v-1.7Zm0,2.55h1.7V6.6H2.35V4.9Zm0,2.55h1.7v1.7H2.35v-1.7Zm0,3.4h1.7v1.7H2.35v-1.7Zm0,2.55h1.7v1.7H2.35V13.4Zm0,2.549h1.7v1.7H2.35v-1.7Z" transform="translate(2 0)"/>
+</svg>
