@@ -1,1 +1,1 @@
-[First project](Razocharovaniye.github.io/Github_1)
+[First project](http://Razocharovaniye.github.io/Github_1)
